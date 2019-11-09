@@ -32,5 +32,8 @@ h2
 section
 {
 	background-color:#AAAAAAAA;
-	MARGIN: 8EM;
+	MARGIN: 8EM;		
+}
+.image{
+	width: 50%;
 }
