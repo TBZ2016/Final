@@ -13,11 +13,8 @@ body
 	}
 	h2.page-header
 	{
-		font-family
+		font-family:
 	}
-
-	
-
 nav ul li 
 	{ 
 	display: inline-block;
@@ -32,7 +29,8 @@ nav ul li
 	
 	}
 	p{
-		padding: 3%
+		padding: 3%;
+		font-family:Arial;
 	}
 h2
 	{
@@ -40,8 +38,8 @@ h2
 	}
 section
 {
-	background-color:#AAAAAAAA;
-	MARGIN: 8EM;		
+	
+	MARGIN: 4EM;		
 }
 #sportcontent{
 	display: flex;
@@ -50,7 +48,7 @@ section
 	
 }
 #maincontent{
-	    margin-top: 207px;
+	    margin-top: 10em;
 }
 .image-sport{
 
@@ -68,3 +66,29 @@ a:hover {
 }
 
 
+#contactcontent button[type="submit"] 
+	{
+	
+	background-color: gray;
+	color: white;
+	padding: 10px 15px;
+	}
+fieldset
+	{
+	margin:10%;
+	font-size:
+	}
+legend
+	{
+	text-align:center;
+	font-size:28pt;
+	}
+video 
+	{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index:-1;
+	}
