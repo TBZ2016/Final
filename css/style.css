@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One&display=swap');
+@font-face { font-family: 'Roboto-400'; src: url('fonts/Roboto/Rototo-Regular.ttf'); }
 
 body
 	{
@@ -10,15 +12,16 @@ body
 	background-color:#70707070;
 	width: 100%;
 	top:0;
+	font-family: 'Supermercado One', cursive;
 	}
 	h2.page-header
 	{
-		font-family:
+		
 	}
 nav ul li 
 	{ 
 	display: inline-block;
-	margin-left: 10px; 
+	margin-left: 1em; 
 	} 
 .photos img
 	{
@@ -37,29 +40,30 @@ h2
 	text-align:center;
 	}
 section
-{
+	{
 	background-color:#F5F5F5;
-	MARGIN: 4EM;		
-}
-#sportcontent{
+	MARGIN: 4em;		
+	}
+#sportcontent
+	{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	
-}
-#maincontent{
+	}
+#maincontent
+	{
 	    margin-top: 10em;
-}
-.image-sport{
-
+	}
+.image-sport
+	{
 	width: 50%;
-    margin: 42px;
+    margin: 3em;
 	float:left;
-}
-.sport-p{
-	float:right;
+	}
+.sport-p
+	{
 	PADDING-TOP: 15%;
-}
+	}
 
 a:hover {
   color: blue;
@@ -70,13 +74,13 @@ a:hover {
 	{
 	background-color: gray;
 	color: white;
-	padding: 10px 15px;
+	padding: 0.5em 2em;
 	}
 fieldset
 	{
 	margin:10%;
-	padding: 55px
-	font-size:30pt;
+	padding: 3em;
+	font-size:15pt;
 	}
 legend
 	{
