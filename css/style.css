@@ -8,11 +8,13 @@ body
 	}
 .page-header 
 	{
+	position: relative;
     text-align: center;
 	background-color:#70707070;
 	width: 100%;
 	top:0;
 	font-family: 'Supermercado One', cursive;
+	color:#997971;
 	}
 	h2.page-header
 	{
@@ -22,6 +24,7 @@ nav ul li
 	{ 
 	display: inline-block;
 	margin-left: 1em; 
+	font-size:18pt;
 	} 
 .photos img
 	{
@@ -66,9 +69,7 @@ aside
 	}
 #sportcontent
 	{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+
 	}
 #maincontent
 	{
@@ -81,13 +82,20 @@ aside
 	}
 .image-sport
 	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	width: 50%;
     margin: 3em;
 	float:left;
 	}
 .sport-p
 	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	PADDING-TOP: 15%;
+	padding-bottom: 24%;
 	}
 
 a:hover {
