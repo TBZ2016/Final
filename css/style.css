@@ -1,21 +1,21 @@
 
 body
-{
+	{
 	margin: 0;
 	margin-top: 0;
-}
+	}
 .page-header 
 	{
     text-align: center;
 	background-color:#70707070;
-	position: fixed;
 	width: 100%;
 	top:0;
 	}
-nav ul 
-	{ 
-	list-style: n; 
+	h2.page-header
+	{
+		font-family
 	}
+
 	
 
 nav ul li 
@@ -52,18 +52,19 @@ section
 #maincontent{
 	    margin-top: 207px;
 }
-.imageLeft, .imageRight{
-	
-	
-	
-	width: 30%;
-	margin: 3px;
+.image-sport{
+
+	width: 50%;
+    margin: 42px;
+	float:left;
 }
-img{
-	display: inline-block;
+.sport-p{
+	float:right;
+	PADDING-TOP: 15%;
 }
-a:active {
-  color: red;
+
+a:hover {
+  color: blue;
 }
 
 
