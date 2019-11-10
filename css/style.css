@@ -38,7 +38,7 @@ h2
 	}
 section
 {
-	
+	background-color:#F5F5F5;
 	MARGIN: 4EM;		
 }
 #sportcontent{
@@ -68,7 +68,6 @@ a:hover {
 
 #contactcontent button[type="submit"] 
 	{
-	
 	background-color: gray;
 	color: white;
 	padding: 10px 15px;
@@ -76,7 +75,8 @@ a:hover {
 fieldset
 	{
 	margin:10%;
-	font-size:
+	padding: 55px
+	font-size:30pt;
 	}
 legend
 	{
