@@ -1,0 +1,3 @@
+User-agent: tbz2016
+Disallow: /forbidden
+Disallow: /hidden-categories
