@@ -39,10 +39,19 @@ h2
 	{
 	text-align:center;
 	}
-section
+.contentsections
 	{
 	background-color:#F5F5F5;
-	MARGIN: 4em;		
+	MARGIN: 4em;	
+	float:right;
+	width:80%;
+	}
+aside
+	{
+	float:left;
+	position:fixed;
+	width:20%;
+	text-align:center;
 	}
 #sportcontent
 	{
@@ -72,15 +81,16 @@ a:hover {
 
 #contactcontent button[type="submit"] 
 	{
-	background-color: gray;
+	background-color: black;
 	color: white;
 	padding: 0.5em 2em;
 	}
 fieldset
 	{
-	margin:10%;
-	padding: 3em;
+	margin:17%;
+	padding: 2em;
 	font-size:15pt;
+	background-color:#AAAAAA;
 	}
 legend
 	{
