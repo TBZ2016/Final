@@ -141,18 +141,40 @@ video
 	min-height: 100%;
 	z-index:-1;
 	}
-	.cookies-bar {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	width: 100%;
-	padding: 5px 0;
-	text-align: center;
-	background-color: #AAAAAA;
-	font-size: 1.2em;
-	z-index: 100;
+.cookies { position: relative; }
+.cookies .checkbox { display: none; }
+.cookies .checkbox:checked + .cookies-bar {
+    transform: translateY(-50px);
 }
-.cookies .checkbox-cb:checked + .cookies-bar {
-	transform: translateY(-50px);
+.cookies-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #2699FB;
+    color: #fff;
+    font-size: 1.2em;
+    transition: .8s;
+    z-index: 100;
 }
+.cookies-bar .close {
+    border: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1.5;
+    width: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cookies-bar .cookie-message p
+	{
+		margin: 0;
+		padding:0;
+	}
