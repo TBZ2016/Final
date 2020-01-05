@@ -14,7 +14,7 @@ body
 	width: 100%;
 	top:0;
 	font-family: 'Supermercado One', cursive;
-	color:#997971;
+	
 	}
 	h2.page-header
 	{
@@ -47,10 +47,13 @@ nav ul li
 		padding: 3%;
 		font-family:Arial;
 		font-size:13pt;
+		color: #444444;
+		
 	}
 h2
 	{
 	text-align:center;
+	color: #000000;
 	}
 .contentsections
 	{
@@ -66,6 +69,7 @@ aside
 	width:17%;
 	text-align:center;
 	background-color:#2699FB;
+	color:FFFFFF;
 	}
 #sportcontent
 	{
@@ -112,6 +116,10 @@ a:hover {
 	color: white;
 	padding: 0.5em 2em;
 	}
+	#contactcontent
+	{
+		
+	}
 fieldset
 	{
 	margin:17%;
@@ -133,3 +141,18 @@ video
 	min-height: 100%;
 	z-index:-1;
 	}
+	.cookies-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+	background-color: #AAAAAA;
+	font-size: 1.2em;
+	z-index: 100;
+}
+.cookies .checkbox-cb:checked + .cookies-bar {
+	transform: translateY(-50px);
+}
